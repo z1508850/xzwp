@@ -1,0 +1,4 @@
+.pcbdmap{
+  display: block;
+  }
+@media (max-width: 768px){.pcbdmap{display: none;}
