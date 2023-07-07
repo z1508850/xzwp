@@ -234,9 +234,38 @@ var _hmt = _hmt || [];
               <span>主站</span>
             </a>
           </li>
-         
+         <style>
+.container {
+  position: relative;
+}
+
+.element {
+  position: relative;
+  display: inline-block;
+}
+
+.element img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: -150px;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.5s;
+}
+
+.element:hover img {
+  display: block;
+  transition: opacity 0.5s;
+}
+
+
+</style>
           <li class="menu-item" style="margin-left:auto;margin-right: 10px;">
-           <span >by 本站由<a style="color:red;">5v5</a> 进行更新与维护</span>
+           <span >by 本站由<a style="color:red;"><div class="container"><div class="element">5v5<img src="https://5.5v5.lol/images/logos/us.jpg" alt="赞赏码"> </div></div></a> 进行更新与维护</span>  
             <i class="fa-solid fa-message" style="margin-right:6px;margin-top:3px;"></i>
              <span class="hitokoto" id="time">正在加载....</span>
             
