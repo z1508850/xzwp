@@ -1,13 +1,13 @@
-function gx2(){iziToast.info({timeout:17000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"添加天卡OMG网盘",message:"自带BOT 支持NE BGX"})}
+function gx2(){iziToast.info({timeout:15000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"添加天卡OMG网盘",message:"自带BOT 支持NE BGX"})}
 
 
 
 
-function gx1(){iziToast.info({timeout:14800,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"添加周卡暗夜网盘",message:"自带BOT 支持NE BGX"})}
-function gx4(){iziToast.info({timeout:15000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新周卡SKY地址",message:"自带BOT 支持NE BGX"})}
+function gx1(){iziToast.info({timeout:16000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"添加周卡暗夜网盘",message:"自带BOT 支持NE BGX"})}
+function gx4(){iziToast.info({timeout:16000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新周卡SKY地址",message:"自带BOT 支持NE BGX"})}
 
 
-function gx3(){iziToast.info({timeout:15100,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa-solid fa-circle-info",backgroundColor:"#fff",title:"更新日志",message:"一分钟内不再提示"})}
+function gx3(){iziToast.info({timeout:14000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa-solid fa-circle-info",backgroundColor:"#fff",title:"更新日志",message:"一分钟内不再提示"})}
 
    function setCookie(name, value, expire) {    
                   window.document.cookie = name + "=" + escape(value) + ((expire == null) ? "" : ("; expires=" + expire.toGMTString())); 
@@ -43,9 +43,9 @@ function gx3(){iziToast.info({timeout:15100,icon:"Fontawesome",closeOnEscape:"tr
                   register();
                    
                  setTimeout(gx4 , 300);
-                 setTimeout(gx1 , 1200);
-                 setTimeout(gx2 , 1500); 
-                 setTimeout(gx3 , 1900);    
+                 setTimeout(gx1 , 1300);
+                 setTimeout(gx2 , 2300); 
+                 setTimeout(gx3 , 3300);    
               
                    
                 }
