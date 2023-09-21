@@ -1,12 +1,12 @@
-function gx2(){document.cookie="night=1;path=/",iziToast.info({timeout:17000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"增加天卡OMG网盘",message:"自带BOT 支持NE BGX"})}
+function gx2(){document.cookie="night=0;path=/",iziToast.info({timeout:17000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"增加天卡OMG网盘",message:"自带BOT 支持NE BGX"})}
 
 
 
 
-function gx1(){document.cookie="night=1;path=/",iziToast.info({timeout:16000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"增加周卡暗夜网盘",message:"自带BOT 支持NE BGX"})}
+function gx1(){document.cookie="night=0;path=/",iziToast.info({timeout:16000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"增加周卡暗夜网盘",message:"自带BOT 支持NE BGX"})}
 
 
-function gx3(){document.cookie="night=1;path=/",iziToast.info({timeout:15000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新日志",message:"10分钟内不再提示"})}
+function gx3(){document.cookie="night=0;path=/",iziToast.info({timeout:15000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新日志",message:"10分钟内不再提示"})}
 
    function setCookie(name, value, expire) {    
                   window.document.cookie = name + "=" + escape(value) + ((expire == null) ? "" : ("; expires=" + expire.toGMTString())); 
