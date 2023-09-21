@@ -1,22 +1,13 @@
-
-function gx2(){document.cookie="night=0;path=/",iziToast.info({timeout:80000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"增加周卡暗夜链接",message:"自带BOT 支持NE BGX"})}
-
+function gx2(){document.cookie="night=1;path=/",iziToast.info({timeout:17000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"增加天卡OMG网盘",message:"自带BOT 支持NE BGX"})}
 
 
 
-function gx1(){document.cookie="night=1;path=/",iziToast.info({timeout:10000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"增加天卡OMG链接",message:"自带BOT 支持NE BGX"})}
 
-function gx3(){document.cookie="night=2;path=/",iziToast.info({timeout:10000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title: "增加天OMG接", message:"自带BOT 支持NE BGX"})}
-
-function gx4(){document.cookie="night=3;path=/",iziToast.info({timeout:10000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"增加天卡OMG链接",message:"自带BOT 支持NE BGX"})}
-// 1.封装操作COOKIE的方法(也可以引入其他库)；
-
-        // 1.1设置指定的cookie，并且指定失效时间；
-        
-// 错误方式
+function gx1(){document.cookie="night=1;path=/",iziToast.info({timeout:16000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"增加周卡暗夜网盘",message:"自带BOT 支持NE BGX"})}
 
 
-// 正确方式
+function gx3(){document.cookie="night=1;path=/",iziToast.info({timeout:15000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新日志",message:"10分钟内不再提示"})}
+
    function setCookie(name, value, expire) {    
                   window.document.cookie = name + "=" + escape(value) + ((expire == null) ? "" : ("; expires=" + expire.toGMTString())); 
                 }
@@ -50,11 +41,10 @@ function gx4(){document.cookie="night=3;path=/",iziToast.info({timeout:10000,ico
                   }
                   register();
                    
-                 setTimeout(gx2 , 300);
-setTimeout(gx1 , 1000);
-setTimeout(gx3 , 2000);
-setTimeout(gx4 , 3000);
-                  
+                 setTimeout(gx1 , 300);
+                 setTimeout(gx2 , 1200);
+                 setTimeout(gx3 , 1900);    
+              
                    
                 }
                
