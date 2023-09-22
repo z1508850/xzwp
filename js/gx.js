@@ -40,11 +40,11 @@ function gx4(){iziToast.info({timeout:17000,icon:"Fontawesome",closeOnEscape:"tr
                   }
                   register();
                    
-                 setTimeout(gx1 , 500);
-                 setTimeout(gx2 , 1500);
-                 setTimeout(gx3 , 2500); 
-                 setTimeout(gx5 , 3500);
-                 setTimeout(gx4 , 4500); 
+                 //setTimeout(gx1 , 500);
+                 //setTimeout(gx2 , 1500);
+                 //setTimeout(gx3 , 2500); 
+                 //setTimeout(gx5 , 3500);
+                // setTimeout(gx4 , 4500); 
               
                    
                 }
