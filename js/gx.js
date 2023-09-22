@@ -30,7 +30,7 @@ function gx4(){iziToast.info({timeout:17000,icon:"Fontawesome",closeOnEscape:"tr
                   var today = new Date();
                   var expires = new Date();
                   console.log(expires.setTime(today.getTime()))
-                  expires.setTime(today.getTime() + 60000);
+                  expires.setTime(today.getTime() + 600000);
                   setCookie("caseywei", name, expires);
                 }
                 function openWin() {
