@@ -1,10 +1,10 @@
 
 function gx1(){iziToast.info({timeout:13000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新天卡Poro网盘",message:"自带BOT 机器码"})}
-function gx2(){iziToast.info({timeout:14000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"添加周卡M5网盘",message:"只支持BGX"})}
+function gx2(){iziToast.info({timeout:14000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新走砍晴天网盘",message:"单板走砍"})}
 function gx3(){iziToast.info({timeout:15000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"添加周卡ON网盘",message:"掉线数据"})}
 function gx5(){iziToast.info({timeout:16000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-trash-o",backgroundColor:"#fff",title:"移除天卡POP地址",message:"网盘文件已失效"})}
 
-function gx4(){iziToast.info({timeout:17000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa-solid fa-circle-info",backgroundColor:"#fff",title:"更新日志",message:"十分钟内不再提示"})}
+function gx4(){iziToast.info({timeout:15000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa-solid fa-circle-info",backgroundColor:"#fff",title:"更新日志",message:"十分钟内不再提示"})}
 
 
    function setCookie(name, value, expire) {    
@@ -42,9 +42,9 @@ function gx4(){iziToast.info({timeout:17000,icon:"Fontawesome",closeOnEscape:"tr
                    
               setTimeout(gx1 , 500);
               setTimeout(gx2 , 1500);
-              setTimeout(gx3 , 2500); 
+              //setTimeout(gx3 , 2500); 
                  //setTimeout(gx5 , 3500);
-                 setTimeout(gx4 , 3500); 
+                 setTimeout(gx4 , 2500); 
               
                    
                 }
