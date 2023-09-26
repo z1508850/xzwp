@@ -1,6 +1,6 @@
 
-function gx1(){iziToast.info({timeout:13000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新US缓存网盘",message:"自带BOT 机器码"})}
-function gx2(){iziToast.info({timeout:14000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新RS缓存网盘",message:"单板走砍"})}
+function gx1(){iziToast.info({timeout:13000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新US缓存网盘",message:"BOT缓存"})}
+function gx2(){iziToast.info({timeout:14000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新RS缓存网盘",message:"GS缓存 NE/LS专用"})}
 function gx3(){iziToast.info({timeout:15000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"添加周卡ON网盘",message:"掉线数据"})}
 function gx5(){iziToast.info({timeout:16000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-trash-o",backgroundColor:"#fff",title:"移除天卡POP地址",message:"网盘文件已失效"})}
 
