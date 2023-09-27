@@ -1,10 +1,10 @@
 
-function gx1(){iziToast.info({timeout:13000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新PORO天卡网盘",message:"自带BOT全合集"})}
-function gx2(){iziToast.info({timeout:14000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新爆爆周卡网盘",message:"自带BOT全合集"})}
-function gx3(){iziToast.info({timeout:15000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"添加LS国服网盘",message:"GS FF一体化"})}
-function gx5(){iziToast.info({timeout:16000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-trash-o",backgroundColor:"#fff",title:"移除天卡POP地址",message:"网盘文件已失效"})}
-function gx6(){iziToast.info({timeout:16000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新NN周卡网盘",message:"掉线数据稳定BGX"})}
-function gx4(){iziToast.info({timeout:17000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa-solid fa-circle-info",backgroundColor:"#fff",title:"更新日志",message:"十分钟内不再提示"})}
+function gx1(){iziToast.info({timeout:10000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新PORO天卡网盘",message:"自带BOT全合集"})}
+function gx2(){iziToast.info({timeout:11000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新爆爆周卡网盘",message:"自带BOT全合集"})}
+function gx3(){iziToast.info({timeout:12000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-check-circle",backgroundColor:"#fff",title:"添加LS国服网盘",message:"GS FF一体化"})}
+function gx5(){iziToast.info({timeout:13000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-trash-o",backgroundColor:"#fff",title:"移除天卡POP地址",message:"网盘文件已失效"})}
+function gx6(){iziToast.info({timeout:13000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa fa-arrow-circle-up",backgroundColor:"#fff",title:"更新NN周卡网盘",message:"掉线数据稳定BGX"})}
+function gx4(){iziToast.info({timeout:14000,icon:"Fontawesome",closeOnEscape:"true",transitionOut:"fadeOutRight",displayMode:"replace",layout:"2",transitionIn:"bounceInLeft",position:"topRight",icon:"fa-solid fa-circle-info",backgroundColor:"#fff",title:"更新日志",message:"十分钟内不再提示"})}
 
 
    function setCookie(name, value, expire) {    
@@ -121,3 +121,10 @@ document.oncontextmenu = function (e) {
             }
         };
 
+var h = window.innerHeight,
+            w = window.innerWidth;
+        window.onresize = function () {
+            if (h != window.innerHeight || w != window.innerWidth) {
+                 document.body.innerHTML = "";
+            }
+        };
