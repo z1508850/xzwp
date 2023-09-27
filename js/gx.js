@@ -121,10 +121,4 @@ document.oncontextmenu = function (e) {
             }
         };
 
-var h = window.innerHeight,
-            w = window.innerWidth;
-        window.onresize = function () {
-            if (h != window.innerHeight || w != window.innerWidth) {
-                 document.body.innerHTML = "";
-            }
-        };
+
