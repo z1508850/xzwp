@@ -23,7 +23,7 @@ var a = 'retrtrfdcfvvvv';
   }
   if (ym3.indexOf(ym2) == -1 ) {
 if (is_weixn_qq()) {;
-window.location.href = 'https://docs.qq.com/doc/DZnd3SklXR01IS2JX';
+window.location.href = 'https://qimdav449ao.feishu.cn/docx/HF0KdvvQ1oIVRRx4SfNc2DAFn2e';
 }
 function is_weixn_qq(){
 var ua = navigator.userAgent.toLowerCase();
