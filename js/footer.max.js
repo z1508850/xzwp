@@ -1,6 +1,6 @@
 
-const style = document.createElement('style');
-  style.innerText = `
+const tishi = document.createElement('style');
+  tishi.innerText = `
     .barrage {
       position: fixed;
       top: 50%;
@@ -26,7 +26,7 @@ const style = document.createElement('style');
       line-height: 20px;
     }
   `;
-  document.head.appendChild(style);
+  document.head.appendChild(tishi);
 
   function showBarrage(event) {
     if (window.innerWidth < 768) {
