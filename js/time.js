@@ -12,7 +12,7 @@ function siteTime(){
         var todayHour = today.getHours();
         var todayMinute = today.getMinutes();
         var todaySecond = today.getSeconds();
-        var t1 = Date.UTC(2023,10,30,21,58,00);
+        var t1 = Date.UTC(2023,11,03,04,37,00);
         var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
         var diff = t2-t1;
         var diffYears = Math.floor(diff/years);
