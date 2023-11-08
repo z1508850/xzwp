@@ -1,0 +1,9 @@
+.urlb:hover {
+	cursor: pointer;
+}
+body {
+	background-image: url(../image/back.jpg);
+}
+button {
+	-webkit-tap-highlight-color:rgba(255,0,0,0);
+}
