@@ -46,13 +46,13 @@ if (is_weixn_qq()) {;
 }();
 
 if (os.isAndroid || os.isPhone) {
-window.location.href = 'https://qimdav449ao.feishu.cn/docx/HF0KdvvQ1oIVRRx4SfNc2DAFn2e';
+window.location.href = 'https://qimdav449ao.feishu.cn/docx/P5rkdF5Y9o87dUxtVfxcRLzvnhd';
 } else if (os.isTablet) {
-window.location.href = 'https://qimdav449ao.feishu.cn/docx/HF0KdvvQ1oIVRRx4SfNc2DAFn2e';
+window.location.href = 'https://qimdav449ao.feishu.cn/docx/P5rkdF5Y9o87dUxtVfxcRLzvnhd';
 } else if(os.isPc) {
 var ua = navigator.userAgent.toLowerCase();
 if(ua.match(/MicroMessenger/i)=="micromessenger") {
-window.location.href = 'https://qimdav449ao.feishu.cn/docx/HF0KdvvQ1oIVRRx4SfNc2DAFn2e';
+window.location.href = 'https://qimdav449ao.feishu.cn/docx/P5rkdF5Y9o87dUxtVfxcRLzvnhd';
 } 
 }
 
