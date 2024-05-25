@@ -1727,9 +1727,6 @@ function scrollx(p){
         <div class="text">群问答时可添加后缀https://xzwp.lol/?任意字符</div>
         <div class="text">例如https://xzwp.lol/?1或https://xzwp.lol/?666等等即可访问</div>
 
-        <div class="zanzhu" onclick="myFunction()" >
-            <p>领个红包</p>
-        </div>
         <div class="xfkpgb" onclick="guanbi()">
            <svg t="1701407527116" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4213" width="200" height="200"><path d="M580.198 509.487l176.777-176.776L686.265 262 509.486 438.777 332.711 262 262 332.71l176.777 176.777L262 686.264l70.71 70.71 176.777-176.776 176.777 176.777 70.71-70.71-176.776-176.778zM512 962C263.472 962 62 760.528 62 512S263.472 62 512 62s450 201.472 450 450-201.472 450-450 450z" fill="#1AA5FF" p-id="4214"></path></svg>
         </div>
@@ -1749,10 +1746,7 @@ function scrollx(p){
                 <span class="fk_service_triangle" id="fk-span-right"></span>打赏一下</div>
             </a>
           </li>
-          <li class="fk_service_box fk_service_dh" id="divBg">
-            <div class="fk_service_dh_cont" id="btn"> <span class="fk_service_triangle"
-                id="fk-span-right"></span ><span id="btnen">English</span></div>
-          </li>
+          
           <a rel="go-top">
             <li class="fk_service_box fk_service_upward" id="topup" style="display: none;">
               <div class="fk_service_upward_cont" id="fk-span"> <span class="fk_service_triangle"
@@ -1833,32 +1827,7 @@ function guanbi() {
 <script src="/js/lozad.min.js"></script>
 
 
-<script>
- let btn = document.getElementById('btn')
-    
-     btn.addEventListener('click', two)
-    function one() {
-     
-         javascript:translate.changeLanguage('chinese_traditional');
-         btn.addEventListener('click', two)
-    }
-    function two() {
-      
-           javascript:translate.changeLanguage('english');
-         btn.addEventListener('click', one)
-       document.getElementById('btnen').innerText='繁体中文';  
-       document.getElementById("divBg").style.backgroundImage="url(../images/ico/中.png)";
-    }
-</script>
-<div id="translate"></div>
 
-<script src="https://res.zvo.cn/translate/translate.js"></script>
-<script>
-javascript:translate.changeLanguage('chinese_traditional');
-translate.selectLanguageTag.show = false; //不出现的select的选择语言
-	translate.execute();
-	document.getElementById("translate").style.display = "none";
-</script>
 
 
 <script>
